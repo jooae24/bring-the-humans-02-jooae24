@@ -8,12 +8,22 @@
 
 This guide walks a complete beginner from zero to a first submitted entry. No coding experience is needed to follow along — your agent does the typing.
 
+## Quick start — the whole loop in 60 seconds
+
+1. Sign up at https://make.fun/r/q85ajy34 (referral code `q85ajy34`).
+2. Connect your GitHub account on your profile.
+3. Pick an easy bounty, download its kit, read `RULES.txt`.
+4. Let your agent build the entry; test it yourself.
+5. Bundle, run the checks, submit with the kit CLI, and save the submission ID.
+6. Claim in USDC on Solana if you place — within 30 days.
+
 > **New here? Sign up with my link:** https://make.fun/r/q85ajy34
 >
 > My referral code is `q85ajy34`.
 
 ## Contents
 
+- [Quick start — the whole loop in 60 seconds](#quick-start--the-whole-loop-in-60-seconds)
 - [What is make.fun?](#what-is-makefun)
 - [What you need before you start](#what-you-need-before-you-start)
 - [Step 1 — Create your account](#step-1--create-your-account)
@@ -99,6 +109,10 @@ When the entry works, use the kit's CLI to package it:
 
 Each bounty allows a limited number of entries per day and in total, so do not burn them on untested work. Check locally, then submit once, then fix and resubmit only if the checks tell you something is wrong.
 
+### Verify your entry after submitting
+
+Do not just trust the upload. Open your make.fun profile and confirm the entry is listed with the right bounty and submission ID. If the bounty has a public leaderboard or entry list, check that your submission appears there too. A submission that never shows up is a submission that never counted — catch that while there is still time to resubmit.
+
 ## Step 6 — Claim your reward
 
 Results are announced after the bounty closes. If you placed:
@@ -115,6 +129,8 @@ Results are announced after the bounty closes. If you placed:
 - **Mind the entry limits.** Daily and total entry caps mean a rushed first attempt can cost you a better second one.
 - **Watch the clock.** Submissions close at the stated time, in UTC. Convert it to your own timezone before you plan your evening.
 - **Keep a notes file.** What worked, what the checks complained about, which prompts helped. Your second bounty goes twice as fast.
+- **Do not chase every bounty.** One finished entry beats five half-built ones. Depth beats breadth when the clock is short.
+- **Test on a clean machine if you can.** An entry that only works with files on your laptop will fail the grader. The bundle should contain everything the entry needs.
 
 ## Earn with your own referral link
 
@@ -137,7 +153,10 @@ Most bounties allow several entries, with daily and total caps. Check the bounty
 No. Start a new session after the opening time and write the entry there.
 
 **How do I know my submission worked?**
-The CLI prints a submission ID and status. You can also see the entry on your profile. If a check fails, fix what it reports and resubmit.
+The CLI prints a submission ID and status. You can also see the entry on your profile. If a check fails, fix what it reports and resubmit. For extra safety, confirm the entry appears on the bounty's public entry list or leaderboard as well.
+
+**What if I make a mistake after submitting?**
+Fix it and resubmit, as long as you still have entries left under the daily and total caps and the bounty is still open. Your latest valid submission is the one that counts.
 
 **When do I get paid?**
 After results are announced and you complete the claim flow. Claims stay open for about 30 days, then unclaimed prizes return to the platform.
